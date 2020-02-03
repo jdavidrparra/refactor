@@ -16,7 +16,7 @@ public class Main
 			SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss");
 			Date date = new Date(System.currentTimeMillis());
 			parser = new Parser();
-			f = new File("D:\\WorkSpace\\refactor\\refactor_test\\src\\File1.txt");
+			f = new File("./src/File1.txt");
 			parser.setFile(f);
 			String newText = parser.getContentWithoutUnicode();
 			System.out.println();
