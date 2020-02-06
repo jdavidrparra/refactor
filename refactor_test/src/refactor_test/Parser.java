@@ -19,7 +19,7 @@ public class Parser {
 	public synchronized File getFile() {
 		return file;
 	}
-
+	
 	public String getContent() throws IOException {
 		String output = "";
 		int data;

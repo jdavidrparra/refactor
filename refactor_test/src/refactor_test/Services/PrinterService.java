@@ -15,7 +15,7 @@ public class PrinterService {
 		_paginate = paginate;
 	}
 	
-	public void Execute() {
+	public void Execute() throws NumberFormatException{
 		java.util.Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number of prime values to generate:");
 		final int M = Integer.parseInt(scanner.nextLine());
