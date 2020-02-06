@@ -88,7 +88,7 @@ if (f.exists()) {
 
 ```
 
-3. En el metodo **saveContent(String content)** no se esta utilizando **throws**
+3. En el método **saveContent(String content)** no se esta utilizando **throws**
 
 ## 2. Refactor de código
 
@@ -162,10 +162,10 @@ public class Printer {
 }
 ```
 
-Para el refactor del codigo anterior se tuvieron en cuenta los principios **SOLID** aplicando así los siguientes: 
+Para el refactor del código anterior se tuvieron en cuenta los principios **SOLID** aplicando así los siguientes: 
 1. Responsabilidad Única
 2. Sustitución de Liskov
 3. Segregación de interfaz
 4. Inversión de Dependencia
 
-El lanzador de la funcionalidad se encuentra en la clase **Printer.java**,  adicionalmente se dejo la funcional para evitar variables fijas en donde se debe ingresar el valor de los números primos a generar así como el numero de registros por pagina y las columnas a mostrar.
+El lanzador de la funcionalidad se encuentra en la clase **Printer.java**,  adicionalmente se dejo la funcionalidad de ingreso de datos  para evitar variables fijas en donde se debe ingresar el valor de los números primos a generar así como el numero de registros por pagina y las columnas a mostrar.
